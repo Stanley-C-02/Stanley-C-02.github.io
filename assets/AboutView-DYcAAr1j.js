@@ -1,0 +1,1 @@
+import{c as n,a as c,o as a}from"./index--KpNO0Mp.js";const _=(e,t)=>{const o=e.__vccOpts||e;for(const[s,r]of t)o[s]=r;return o},i={},l={class:"about"};function u(e,t){return a(),n("div",l,t[0]||(t[0]=[c("h1",null,"This is an about page, currently in progress c:",-1)]))}const p=_(i,[["render",u]]);export{p as default};
