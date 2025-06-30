@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <VApp style="min-width: 1024px;">
+  <VApp style="min-width: 1200px;">
     <VAppBar>
       <template #prepend>
         <nav class="d-flex align-center ga-1">
