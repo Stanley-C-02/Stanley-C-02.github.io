@@ -5,11 +5,13 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <VApp style="min-width: 1200px;">
+  <VApp style="min-width: 1200px; min-height: 100vh;">
     <VAppBar>
       <template #prepend>
         <nav class="d-flex align-center ga-1">
-          <VImg alt="Vue logo" class="logo" :src="logo" width="64" />
+          <VBtn to="/" variant="plain" >
+            <VImg alt="Vue logo" class="logo" :src="logo" width="64" href="/" />
+          </VBtn>
           <VBtn to="/">Home</VBtn>
           <VBtn to="/about">About</VBtn>
         </nav>
@@ -27,8 +29,13 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterView />
     </VMain>
 
-    <VFooter class="px-12 py-4">
-      <h2>Footer</h2>
+    <VFooter class="px-12 py-4 d-flex justify-space-between flex-grow-0">
+      <VBtn to="/" variant="plain" >
+        <VImg alt="Vue logo" class="logo" :src="logo" width="64" href="/" />
+      </VBtn>
+      <p class="text-caption">
+        &copy; Stanley Chow, 2025. All rights reserved.
+      </p>
     </VFooter>
   </VApp>
 </template>
