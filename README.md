@@ -1,6 +1,6 @@
 # Stanley's Github Page
 
-This website is a website hosted on [GitHub Pages](https://pages.github.com/).
+This website is a website hosted at [stanley-c-02.github.io](https://stanley-c-02.github.io/) using [GitHub Pages](https://pages.github.com/).
 
 ## Vue DEV Notes
 
