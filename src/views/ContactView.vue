@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { mdiContentCopy, mdiEmail } from '@mdi/js';
-import { VBtn, VHover, VIcon, VList, VListItem } from 'vuetify/components';
+import { VHover, VIcon, VList, VListItem } from 'vuetify/components';
 
-const copyToClipboard = (e: MouseEvent, text: string) => {
+const copyToClipboard = (e: MouseEvent | KeyboardEvent, text: string) => {
   console.log(e);
   navigator.clipboard.writeText(text)
     .then(() => alert('Successfully copied'));
